@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MPACore.PhoneBook.PhoneBooks.PhoneNumber
+namespace MPACore.PhoneBook.PhoneBooks.PhoneNumbers
 {
 
     /// <summary>

@@ -1,12 +1,13 @@
 ﻿using Abp.Domain.Entities;
 using Abp.Domain.Entities.Auditing;
 using MPACore.PhoneBook.PhoneBooks.Persons;
+using MPACore.PhoneBook.PhoneBooks.PhoneNumbers;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace MPACore.PhoneBook.PhoneBooks.PhoneNumber
+namespace MPACore.PhoneBook.PhoneBook.PhoneNumbers
 {
     public class PhoneNumber :Entity<long>, IHasCreationTime
     {

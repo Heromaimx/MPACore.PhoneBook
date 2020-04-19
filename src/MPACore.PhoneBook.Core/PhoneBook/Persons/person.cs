@@ -4,6 +4,8 @@ using System.ComponentModel.DataAnnotations;
 using System.Text;
 using Abp.Domain.Entities;
 using Abp.Domain.Entities.Auditing;
+using MPACore.PhoneBook.PhoneBook.PhoneNumbers;
+using MPACore.PhoneBook.PhoneBooks.PhoneNumbers;
 
 namespace MPACore.PhoneBook.PhoneBooks.Persons
 {
@@ -36,7 +38,7 @@ namespace MPACore.PhoneBook.PhoneBooks.Persons
         /// 电话号码的属性
         /// </summary>
 
-        //public ICollection<PhoneNumbers> PhoneNumbers { get; set; }
+        public ICollection<PhoneNumber> PhoneNumbers { get; set; }
 
 
 

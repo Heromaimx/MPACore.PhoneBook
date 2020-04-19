@@ -1,5 +1,5 @@
 ﻿using Abp.AutoMapper;
-using MPACore.PhoneBook.PhoneBooks.PhoneNumber;
+using MPACore.PhoneBook.PhoneBooks.PhoneNumbers;
 using System;
 using System.Collections.Generic;
 using Abp.Application.Services.Dto;

@@ -4,7 +4,8 @@ using MPACore.PhoneBook.Authorization.Roles;
 using MPACore.PhoneBook.Authorization.Users;
 using MPACore.PhoneBook.MultiTenancy;
 using MPACore.PhoneBook.PhoneBooks.Persons;
-using MPACore.PhoneBook.PhoneBooks.PhoneNumber;
+using MPACore.PhoneBook.PhoneBooks.PhoneNumbers;
+using MPACore.PhoneBook.PhoneBook.PhoneNumbers;
 
 namespace MPACore.PhoneBook.EntityFrameworkCore
 {
